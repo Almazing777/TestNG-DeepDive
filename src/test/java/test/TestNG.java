@@ -1,3 +1,5 @@
+package test;
+
 import org.testng.annotations.Test;
 
 public class TestNG {
@@ -7,7 +9,7 @@ public class TestNG {
         System.out.println("hello");
     }
 
-    @Test
+    @Test (groups ={"Smoke"})
     public void SecondTest(){
         System.out.println("bye");
     }
