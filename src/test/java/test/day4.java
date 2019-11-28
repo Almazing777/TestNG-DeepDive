@@ -27,7 +27,7 @@ public class day4 {
         System.out.println("mobileloginHome");
     }
 
-    @Test
+    @Test(dependsOnMethods = {"WebLoginHomeLoan"})
     public void LoginAPIHomeLoan(){
         //Rest API automation
         System.out.println("databaseloginHome");

@@ -9,13 +9,13 @@ public class day3 {
         System.out.println("weblogincar");
     }
 
-    @Test
+    @Test (enabled = false)
     public void MobileLoginCarLoan(){
         //appium
         System.out.println("mobilelogincar");
     }
 
-    @Test
+    @Test (timeOut = 4000)
     public void MobileSignInCarLoan(){
         //appium
         System.out.println("mobilelogincar");
