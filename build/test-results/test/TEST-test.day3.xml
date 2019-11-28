@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.day3" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-28T05:21:59" hostname="Almass-MacBook-Pro.local" time="0.005">
+<testsuite name="test.day3" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-11-28T06:02:11" hostname="Almass-MacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="LoginAPICarLoan" classname="test.day3" time="0.001"/>
-  <testcase name="WebLoginLoan" classname="test.day3" time="0.0"/>
+  <testcase name="LoginAPICarLoan[0](firstSetUsername, password)" classname="test.day3" time="0.001"/>
+  <testcase name="LoginAPICarLoan[1](secondSetUsername, secondPassword)" classname="test.day3" time="0.001"/>
+  <testcase name="LoginAPICarLoan[2](thirdSetUsername, thirdPassword)" classname="test.day3" time="0.001"/>
   <system-out><![CDATA[databaselogin
-weblogincar
+firstSetUsername
+password
+databaselogin
+secondSetUsername
+secondPassword
+databaselogin
+thirdSetUsername
+thirdPassword
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
